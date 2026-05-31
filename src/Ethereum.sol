@@ -44,91 +44,10 @@ library Ethereum {
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
 
     /******************************************************************************************************************/
-    /*** PatternDAO Addresses                                                                                         ***/
+    /*** Skybase Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant PATTERN_PROXY = 0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736;
+    address internal constant SKYBASE_PROXY = 0x08978E3700859E476201c1D7438B3427e3C81140;
 
-    address internal constant PATTERN_STAR_GUARD = 0x2fb18b28fB39Ec3b26C3B5AF5222e2ca3B8B2269;
-
-    /******************************************************************************************************************/
-    /*** Pattern Allocation System Addresses                                                                          ***/
-    /******************************************************************************************************************/
-
-    address internal constant ALLOCATOR_BUFFER   = 0x823459b55D79F0421f24a4828237F7ecb8D7F1ef;
-    address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
-    address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
-    address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
-    address internal constant ALLOCATOR_VAULT	 = 0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E;
-
-    /******************************************************************************************************************/
-    /*** Pattern Liquidity Layer Addresses                                                                            ***/
-    /******************************************************************************************************************/
-
-    address internal constant ALM_CONTROLLER  = 0x8739a869E41e828c83EA45575fBDf9FfcC0962b1;
-    address internal constant ALM_PROXY       = 0xbA43325E91C79E500486a23E953ab3d8C46f169F;
-    address internal constant ALM_RATE_LIMITS = 0xa77f69f90646A4c0e44cEe1D44Fab08bEb4EA204;
-
-    address internal constant ALM_FREEZER = 0xe728D67bca6cb18dE249325792b6379Eef4618bB;
-    address internal constant ALM_RELAYER = 0xd00665Df77E0b1294Ae2bdC3662F870092f6737B;
-
-    /******************************************************************************************************************/
-    /*** Ethena Addresses                                                                                           ***/
-    /******************************************************************************************************************/
-
-    address internal constant ETHENA_MINTER = 0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3;
-
-    /******************************************************************************************************************/
-    /*** Maple Finance Addresses                                                                                   ***/
-    /******************************************************************************************************************/
-
-    address internal constant SYRUP_USDC = 0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b;
-
-    /******************************************************************************************************************/
-    /*** Blackrock BUIDL Addresses                                                                                  ***/
-    /******************************************************************************************************************/
-
-    address internal constant BUIDL          = 0x7712c34205737192402172409a8F7ccef8aA2AEc;
-    address internal constant BUIDL_REDEEM   = 0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53;  // Circle redeem
-    address internal constant BUIDLI         = 0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041;
-    address internal constant BUIDLI_DEPOSIT = 0xD1917664bE3FdAea377f6E8D5BF043ab5C3b1312;
-    address internal constant BUIDLI_REDEEM  = 0x8780Dd016171B91E4Df47075dA0a947959C34200;  // Offchain redeem
-
-    /******************************************************************************************************************/
-    /*** Centrifuge Addresses                                                                                       ***/
-    /******************************************************************************************************************/
-
-    address internal constant CENTRIFUGE_JAAA  = 0x4880799eE5200fC58DA299e965df644fBf46780B;
-    address internal constant CENTRIFUGE_JTRSY = 0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A;
-
-    /******************************************************************************************************************/
-    /*** Fluid Addresses                                                                                            ***/
-    /******************************************************************************************************************/
-
-    address internal constant FLUID_SUSDS = 0x2BBE31d63E6813E3AC858C04dae43FB2a72B0D11;
-
-    /******************************************************************************************************************/
-    /*** Morpho Addresses                                                                                           ***/
-    /******************************************************************************************************************/
-
-    address internal constant MORPHO = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
-
-    /******************************************************************************************************************/
-    /*** Superstate Addresses                                                                                       ***/
-    /******************************************************************************************************************/
-
-    address internal constant SUPERSTATE_REDEMPTION = 0x4c21B7577C8FE8b0B0669165ee7C8f67fa1454Cf;
-
-    /******************************************************************************************************************/
-    /*** Cross-Domain Addresses                                                                                     ***/
-    /******************************************************************************************************************/
-
-    address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
-
-    /******************************************************************************************************************/
-    /*** Pendle Addresses                                                                                           ***/
-    /******************************************************************************************************************/
-
-    address public constant PENDLE_ROUTER = 0x888888888889758F76e7103c6CbF23ABbF58F946;
-
+    address internal constant SKYBASE_STAR_GUARD = 0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7;
 }
