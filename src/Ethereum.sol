@@ -47,7 +47,7 @@ library Ethereum {
     /*** Skybase Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant SKYBASE_PROXY = 0x08978E3700859E476201c1D7438B3427e3C81140;
-
-    address internal constant SKYBASE_STAR_GUARD = 0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7;
+    address internal constant SKYBASE_PROXY                           = 0x08978E3700859E476201c1D7438B3427e3C81140;
+    address internal constant SKYBASE_FOUNDATION_OPERATIONAL_MULTISIG = 0x58B945c8Ce34BD8cEA3Fc0437626F9F87d58A621;
+    address internal constant SKYBASE_STAR_GUARD                      = 0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7;
 }
